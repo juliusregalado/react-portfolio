@@ -76,13 +76,19 @@
   font-weight: 700;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h1, h2 {
   font-family: 'Architects_Daughter', Arial, Helvetica;
   text-transform: uppercase;
+  line-height: 0.6;
 }
 
-p {
-  font-family: 'JosefinSans', Arial, Helvetica;
+
+a {
   font-weight: 300;
 }
 
@@ -93,6 +99,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
 }
 
 code {
@@ -159,4 +168,39 @@ code {
   height: 70vmin;
   pointer-events: none;
   overflow: hidden;
+}
+
+
+/* HERO section */
+.hero-section {
+  background-image: url('../web/images/Hero.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;  
+  height: auto;
+  /* padding: 100vh; */
+}
+
+.hero-inner-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-copy-block {
+  color: #FFFFFF;
+  padding-bottom: 100px;
+}
+
+.hero-copy-block h1 {
+  font-size: 74px;
+  margin-bottom: 20px;
+}
+
+.hero-copy-block p {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
