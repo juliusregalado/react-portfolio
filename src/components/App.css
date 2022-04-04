@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'Architects_Daughter';
+  src: url('../web/fonts/ArchitectsDaughter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('../web/fonts/JosefinSans-Thin.ttf') format('truetype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('../web/fonts/JosefinSans-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('../web/fonts/JosefinSans-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('../web/fonts/JosefinSans-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Josefin-Sans';
+  src: url('../web/fonts/JosefinSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('../web/fonts/JosefinSans-Italic.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('../web/fonts/JosefinSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('../web/fonts/JosefinSans-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+}
+
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('../web/fonts/JosefinSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('../web/fonts/JosefinSans-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('../web/fonts/JosefinSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('../web/fonts/JosefinSans-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+}
+
+h1, h2 {
+  font-family: 'Architects_Daughter', Arial, Helvetica;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'JosefinSans', Arial, Helvetica;
+  font-weight: 300;
+}
+
+body {
+  margin: 0;
+  font-family: 'JosefinSans', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.inner-content {
+  color: #282c34;
+  /* color: white; */
+  z-index: 2;
+}
+
+.App-logo {
+  pointer-events: none;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: red;
+}
+
+.intro-wrapper {
+  background-color: #E9EAED;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  position: absolute;
+}
