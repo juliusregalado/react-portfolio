@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.99dd6bfd.css",
+    "main.js": "/static/js/main.5e993880.js",
+    "static/media/JosefinSans-SemiBoldItalic.ttf": "/static/media/JosefinSans-SemiBoldItalic.5ff047d97f82fedbf879.ttf",
+    "static/media/JosefinSans-MediumItalic.ttf": "/static/media/JosefinSans-MediumItalic.6279a7cdc4067cb5e1d9.ttf",
+    "static/media/JosefinSans-Italic.ttf": "/static/media/JosefinSans-Italic.683a5a63748897e31c24.ttf",
+    "static/media/JosefinSans-LightItalic.ttf": "/static/media/JosefinSans-LightItalic.c45c8818c47fccdf9aa1.ttf",
+    "static/media/JosefinSans-BoldItalic.ttf": "/static/media/JosefinSans-BoldItalic.5d3562a1f48c8e7797b9.ttf",
+    "static/media/JosefinSans-ThinItalic.ttf": "/static/media/JosefinSans-ThinItalic.98f2dfb0fe4166d4ca44.ttf",
+    "static/media/JosefinSans-Medium.ttf": "/static/media/JosefinSans-Medium.45a5738c27c1bbbecc0c.ttf",
+    "static/media/JosefinSans-SemiBold.ttf": "/static/media/JosefinSans-SemiBold.3fc02ffe3b6f114e24cf.ttf",
+    "static/media/JosefinSans-Light.ttf": "/static/media/JosefinSans-Light.1dca1658dbbee237496e.ttf",
+    "static/media/JosefinSans-Regular.ttf": "/static/media/JosefinSans-Regular.511e3c3173e1aba79ba0.ttf",
+    "static/media/JosefinSans-Bold.ttf": "/static/media/JosefinSans-Bold.958fefb32cf3d337d5bf.ttf",
+    "static/media/JosefinSans-Thin.ttf": "/static/media/JosefinSans-Thin.bf7389b490a09daa4727.ttf",
+    "static/media/ArchitectsDaughter-Regular.ttf": "/static/media/ArchitectsDaughter-Regular.97e4b635030c7d8a85d5.ttf",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.99dd6bfd.css.map": "/static/css/main.99dd6bfd.css.map",
+    "main.5e993880.js.map": "/static/js/main.5e993880.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99dd6bfd.css",
+    "static/js/main.5e993880.js"
+  ]
+}
