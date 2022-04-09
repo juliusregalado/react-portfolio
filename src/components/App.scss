@@ -1,0 +1,208 @@
+@import "custom";
+
+@font-face {
+    font-family: 'Architects_Daughter';
+    src: url('../web/fonts/ArchitectsDaughter-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'JosefinSans';
+    src: url('../web/fonts/JosefinSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+  }
+  
+  @font-face {
+    font-family: 'JosefinSans';
+    src: url('../web/fonts/JosefinSans-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+  }
+  
+  @font-face {
+    font-family: 'JosefinSans';
+    src: url('../web/fonts/JosefinSans-Light.ttf') format('truetype');
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: 'JosefinSans';
+    src: url('../web/fonts/JosefinSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: 'Josefin-Sans';
+    src: url('../web/fonts/JosefinSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: 'JosefinSans';
+    src: url('../web/fonts/JosefinSans-Italic.ttf') format('truetype');
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: 'JosefinSans';
+    src: url('../web/fonts/JosefinSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: 'JosefinSans';
+    src: url('../web/fonts/JosefinSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+  }
+  
+  
+  @font-face {
+    font-family: 'JosefinSans';
+    src: url('../web/fonts/JosefinSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-family: 'JosefinSans';
+    src: url('../web/fonts/JosefinSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-family: 'JosefinSans';
+    src: url('../web/fonts/JosefinSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: 'JosefinSans';
+    src: url('../web/fonts/JosefinSans-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    font-family: 'Architects_Daughter', Arial, Helvetica;
+    text-transform: uppercase;
+    line-height: 0.6;
+  }
+  
+  
+  a {
+    font-weight: 300;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'JosefinSans', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  /* .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  } */
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .intro-wrapper {
+    background-color: #E9EAED;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    position: relative;
+  }
+  
+  .inner-content {
+    color: #282c34;
+    z-index: 2;
+  }
+  
+  .react-logo-container {
+    position: absolute;
+  }
+  
+  .App-logo {
+    height: 70vmin;
+    pointer-events: none;
+    overflow: hidden;
+  }
+  
+  
+  /* HERO section */
+  .hero-section {
+    background-image: url('../web/images/Hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;  
+    height: auto;
+    /* padding: 100vh; */
+  }
+  
+  .hero-inner-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .hero-copy-block {
+    color: #FFFFFF;
+    padding-bottom: 100px;
+  }
+  
+  .hero-copy-block h1 {
+    font-size: 74px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-copy-block p {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }

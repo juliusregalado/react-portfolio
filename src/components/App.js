@@ -1,10 +1,10 @@
-import './App.css';
-import IntroPage from './IntroPage';
+import HeroB from './Sections/HeroB';
+import HeroSection from './HeroSection';
 
-function App() {
+const App = () => {
   return (
     <div className="App"> 
-      <IntroPage />
+      <HeroSection />
     </div>
   );
 }
