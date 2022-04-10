@@ -1,0 +1,20 @@
+// 
+// Styles 
+// 
+
+// Import variables
+@import "./variables.scss";
+
+// Import Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Global CSS
+// @import "./global.scss";
+
+// Components
+// @import "./components/navbar.scss";
+// @import "./components/buttons.scss";
+
+// // Sections
+@import "./Sections/AboutSection.scss";
+@import "./Sections/ProjectsSection.scss";
